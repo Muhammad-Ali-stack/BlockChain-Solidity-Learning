@@ -35,7 +35,7 @@ npx create-eth@latest
 This command will install all the necessary packages and dependencies, so it might take a while.
 
 > [!NOTE]
-> You can also initialize your project with one of our extensions to add specific features or starter-kits. Learn more in our [extensions documentation](https://docs.scaffoldeth.io/extensions/).
+> You can also initialize your project with one of our extensions to add specific features or starter-kits. Learn more in our .
 
 2. Run a local network in the first terminal:
 
@@ -51,7 +51,7 @@ This command starts a local Ethereum network that runs on your local machine and
 yarn deploy
 ```
 
-This command deploys a test smart contract to the local network. You can find more information about how to customize your contract and deployment script in our [documentation](https://docs.scaffoldeth.io/quick-start/environment#2-deploy-your-smart-contract).
+This command deploys a test smart contract to the local network. You can find more information about how to customize your contract and deployment script in our 
 
 4. On a third terminal, start your NextJS app:
 
@@ -72,8 +72,3 @@ Visit the [What's next section of our docs](https://docs.scaffoldeth.io/quick-st
 - Writing and running tests
 - [Setting up external services and API keys](https://docs.scaffoldeth.io/deploying/deploy-smart-contracts#configuration-of-third-party-services-for-production-grade-apps)
 
-## Documentation
-
-Visit our [docs](https://docs.scaffoldeth.io) to learn all the technical details and guides of Scaffold-ETH 2.
-
-To know more about its features, check out our [website](https://scaffoldeth.io).
