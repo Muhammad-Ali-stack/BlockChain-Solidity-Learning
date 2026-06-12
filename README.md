@@ -1,60 +1,106 @@
 # BT Solidity Learning
 
-🧪 Used an  open-source, up-to-date toolkit for building decentralized applications (dapps) on the Ethereum blockchain.
+A hands-on learning project focused on Ethereum smart contract development and decentralized application (dApp) development using modern Web3 technologies.
 
+## Overview
 
+This project utilizes an open-source toolkit for building decentralized applications on the Ethereum blockchain. It provides a complete development environment for writing, deploying, testing, and interacting with smart contracts through a modern frontend.
 
-⚙️ Built using NextJS, RainbowKit, Foundry/Hardhat, Wagmi, Viem, and Typescript.
+## Tech Stack
 
-- ✅ **Contract Hot Reload**: Your frontend auto-adapts to your smart contract as you edit it.
-- 🪝 **[Custom hooks]**: Collection of React hooks wrapper around [wagmi](https://wagmi.sh/) to simplify interactions with smart contracts with typescript autocompletion.
-- 🧱 [**Components**]: Collection of common web3 components to quickly build your frontend.
-- 🔥 **Burner Wallet & Local Faucet**: Quickly test your application with a burner wallet and local faucet.
-- 🔐 **Integration with Wallet Providers**: Connect to different wallet providers and interact with the Ethereum network.
+* Next.js
+* TypeScript
+* RainbowKit
+* Wagmi
+* Viem
+* Foundry
+* Hardhat
+* Ethereum
 
+## Features
 
+* **Contract Hot Reload** – Automatically updates the frontend when smart contracts are modified.
+* **Custom Hooks** – Simplifies contract interactions with reusable React hooks and TypeScript autocompletion.
+* **Reusable Web3 Components** – Pre-built components for faster dApp development.
+* **Burner Wallet & Local Faucet** – Enables rapid local testing and development.
+* **Wallet Integration** – Connect and interact with popular Ethereum wallet providers.
+* **Local Development Environment** – Supports end-to-end smart contract development and testing.
 
-## Requirements
+## Prerequisites
 
-Before you begin, you need to install the following tools:
+Before running the project, ensure the following tools are installed:
 
-- [Node (>= v20.18.3)](https://nodejs.org/en/download/)
-- Yarn ([v1](https://classic.yarnpkg.com/en/docs/install/) or [v2+](https://yarnpkg.com/getting-started/install))
-- [Git](https://git-scm.com/downloads)
+* Node.js (v20.18.3 or later)
+* Yarn (v1 or v2+)
+* Git
 
-## Quickstart
+## Installation
 
-To get started with Scaffold-ETH 2, follow the steps below:
+Clone the repository:
 
-1. Install the latest version of Scaffold-ETH 2
-
+```bash
+git clone <repository-url>
+cd <project-folder>
 ```
-npx create-eth@latest
+
+Install dependencies:
+
+```bash
+yarn install
 ```
 
-This command will install all the necessary packages and dependencies, so it might take a while.
+## Running the Project
 
-> [!NOTE]
-> You can also initialize your project with one of our extensions to add specific features or starter-kits. Learn more in our .
+### 1. Start Local Blockchain
 
-2. Run a local network in the first terminal:
-
-```
+```bash
 yarn chain
 ```
 
-This command starts a local Ethereum network that runs on your local machine and can be used for testing and development. Learn how to [customize your network configuration](https://docs.scaffoldeth.io/quick-start/environment#1-initialize-a-local-blockchain).
+### 2. Deploy Smart Contracts
 
-3. On a second terminal, deploy the test contract:
-
-```
+```bash
 yarn deploy
 ```
 
-This command deploys a test smart contract to the local network. You can find more information about how to customize your contract and deployment script in our 
+### 3. Launch Frontend Application
 
-4. On a third terminal, start your NextJS app:
-
-```
+```bash
 yarn start
 ```
+
+The application will be available locally after startup.
+
+## Learning Outcomes
+
+Through this project, the following concepts were explored:
+
+* Ethereum Blockchain Fundamentals
+* Smart Contract Development with Solidity
+* Contract Deployment and Testing
+* Web3 Frontend Development
+* Wallet Integration
+* Decentralized Application Architecture
+* Blockchain Development Workflows
+
+## Project Structure
+
+```text
+├── packages/
+│   ├── hardhat/
+│   └── nextjs/
+├── contracts/
+├── deploy/
+├── components/
+├── hooks/
+└── README.md
+```
+
+## References
+
+* Scaffold-ETH 2
+* Ethereum Documentation
+* Hardhat Documentation
+* Foundry Documentation
+* Wagmi Documentation
+* RainbowKit Documentation
